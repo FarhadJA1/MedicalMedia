@@ -1,0 +1,36 @@
+%extend-shortcuts{
+    background-color: $secondary-bc;
+    height: 60px;
+    border-radius: 10px;
+    color: $primary-bc;
+    text-align: center;
+    margin-right: 10px;
+}
+%extend-buttons{
+    
+    width: 120px;
+    border-radius: 10px;
+}
+%extend-images{
+    width: 100%;
+    border-radius: 10px;
+}
+%extend-footer{
+    ul{
+        li{
+            list-style-type: none;
+            h5{
+                color: white;
+                font-weight: bold;
+                
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: $secondary-bc;
+                }
+            }
+        }
+    }
+}
